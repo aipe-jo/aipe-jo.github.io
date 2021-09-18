@@ -1,7 +1,5 @@
 ---
-title: "La maternelle Justin Outin"
+title: "Liste maternelle"
 featured_image: '/images/gohugo-default-sample-hero-image.jpg'
 description: ""
 ---
-
-# La maternelle Justin Outin

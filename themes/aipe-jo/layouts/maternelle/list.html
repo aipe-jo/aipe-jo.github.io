@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+
+<section class="container">
+
+  {{- .Content -}}
+
+  <div>
+    {{ range (.Pages.ByParam "rank") }}
+    <div class="column ">
+      {{ .Render "member" }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+</section>
+<section>
+  <!-- sidebar -->
+  <!-- /sidebar -->
+
+  <!-- pagination -->
+
+</section>
+</div>
+
+{{ end }}
