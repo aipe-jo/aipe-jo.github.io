@@ -4,6 +4,7 @@ description: "Esmeralda"
 image: "/images/logo.jpg"
 tags: []
 title: "Chapter VI: Esmeralda"
+type: "post"
 disable_share: false
 ---
 We are delighted to be able to inform the reader, that during the whole of

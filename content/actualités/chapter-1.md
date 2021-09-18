@@ -4,6 +4,7 @@ description: "The Grand Hall"
 image: "/images/logo.jpg"
 tags: ["scene"]
 title: "Chapter I: The Grand Hall"
+type: "post"
 ---
 
 Three hundred and forty-eight years, six months, and nineteen days ago

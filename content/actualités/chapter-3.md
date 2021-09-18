@@ -4,6 +4,7 @@ description: "Monsieur the Cardinal"
 image: ""
 tags: []
 title: "Chapter III: Monsieur the Cardinal"
+type: "post"
 ---
 
 Poor Gringoire! the din of all the great double petards of the Saint-Jean,

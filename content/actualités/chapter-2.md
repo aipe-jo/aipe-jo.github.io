@@ -4,6 +4,7 @@ description: "Pierre Gringoire"
 image: ""
 tags: []
 title: "Chapter II: Pierre Gringoire"
+type: "post"
 ---
 
 Nevertheless, as be harangued them, the satisfaction and admiration

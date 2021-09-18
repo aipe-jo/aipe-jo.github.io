@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<!-- blog post -->
+<section class="section">
+  <div class="container">
+    <div class='columns is-multiline'>
+      {{ range first 3 ( where .Site.RegularPages.ByPublishDate.Reverse "Type" "post" )}}
+      <div class="column is-one-third">
+        {{ .Render "post" }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /blog post -->
+
+{{ end }}

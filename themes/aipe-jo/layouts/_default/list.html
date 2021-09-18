@@ -1,8 +1,11 @@
 {{ define "main" }}
 
+
 <section class="container">
+
+  {{- .Content -}}
+
   <div class='columns is-multiline'>
-    {{ $paginator := .Paginate .Data.Pages }}
     {{ $paginator := .Paginate .Data.Pages }}
     {{ range $paginator.Pages }}
     <div class="column is-one-third">

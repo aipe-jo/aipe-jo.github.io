@@ -1,5 +1,5 @@
 baseURL = 'http://example.org/'
-languageCode = 'en-us'
+languageCode = 'fr-FR'
 title = "L'asso indépendante des parents d'élèves de l'école Justin Oudin"
 theme = "aipe-jo"
 
