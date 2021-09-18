@@ -1,32 +1,41 @@
-<!-- TODO: Add follow intents where available TODO: Revisit color and hover color -->
 {{ $icon_size := "32px" }}
+
 {{ with .Param "facebook" }}
-<a href="{{ . }}" target="_blank" class="link-transition facebook link dib z-999 pt3 pt0-l mr1" title="Facebook link"
-  rel="noopener" aria-label="follow on Facebook——Opens in a new window">
-  {{ partial "svg/facebook.svg" (dict "size" $icon_size) }}
+<a href="{{ . }}" target="_blank" title="Facebook">
+  <span class="icon" style="color: var(--facebook);">
+    {{ partial "svg/facebook.svg" (dict "size" $icon_size) }}
+  </span>
 </a>
 {{ end }}
+
 {{ with .Param "twitter" }}
-<a href="{{ . }}" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link"
-  rel="noopener" aria-label="follow on Twitter——Opens in a new window">
-  {{ partial "svg/twitter.svg" (dict "size" $icon_size) }}
+<a href="{{ . }}" target="_blank" title="Twitter">
+  <span class="icon" style="color: var(--twitter);">
+    {{ partial "svg/twitter.svg" (dict "size" $icon_size) }}
+  </span>
 </a>
 {{ end }}
+
 {{ with .Param "instagram" }}
-<a href="{{ . }}" target="_blank" class="link-transition instagram link dib z-999 pt3 pt0-l mr1" title="Instagram link"
-  rel="noopener" aria-label="follow on Instagram——Opens in a new window">
-  {{ partial "svg/instagram.svg" (dict "size" $icon_size) }}
+<a href="{{ . }}" target="_blank" title="Instagram">
+  <span class="icon" style="color: var(--instagram);">
+    {{ partial "svg/instagram.svg" (dict "size" $icon_size) }}
+  </span>
 </a>
 {{ end }}
+
 {{ with .Param "youtube" }}
-<a href="{{ . }}" target="_blank" class="link-transition youtube link dib z-999 pt3 pt0-l mr1" title="Youtube link"
-  rel="noopener" aria-label="follow on Youtube——Opens in a new window">
-  {{ partial "svg/youtube.svg" (dict "size" $icon_size) }}
+<a href="{{ . }}" target="_blank" title="Youtube">
+  <span class="icon" style="color: var(--youtube);">
+    {{ partial "svg/youtube.svg" (dict "size" $icon_size) }}
+  </span>
 </a>
 {{ end }}
+
 {{ with .Param "rss" }}
-<a href="{{ . }}" target="_blank" class="link-transition rss link dib z-999 pt3 pt0-l mr1" title="RSS link"
-  rel="noopener" aria-label="RSS——Opens in a new window">
-  {{ partial "svg/rss.svg" (dict "size" $icon_size) }}
+<a href="{{ . }}" target="_blank" title="RSS">
+  <span class="icon" style="color: var(--rss);">
+    {{ partial "svg/rss.svg" (dict "size" $icon_size) }}
+  </span>
 </a>
 {{ end }}

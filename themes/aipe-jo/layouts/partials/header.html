@@ -1,64 +1,46 @@
 {{ $page := . }}
+{{ $icon_size := "32px" }}
 
-<header class="header">
-  <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="{{ .Site.Home.RelPermalink }}">
-        {{ with .Site.Params.site_logo }}
-        <img src="{{ . }}" alt="{{ $.Site.Title }}" />
-        {{ else }}
-        {{ .Site.Title }}
-        {{ end }}
-      </a>
+<nav class="navbar has-shadow is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="main-menu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
 
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
+    <a class="navbar-item navbar-brand-logo" href="{{ .Site.Home.RelPermalink }}">
+      {{ with .Site.Params.site_logo }}
+      <figure class="image">
+        <img src="{{ . }}" alt="{{ $.Site.Title }}" class="is-rounded" />
+      </figure>
+      {{ else }}
+      {{ .Site.Title }}
+      {{ end }}
+    </a>
+
+    <div class="navbar-item navbar-social navbar-mobile-icon">
+      {{ partial "social-follow" . }}
+    </div>
+  </div>
+
+  <div id="main-menu" class="navbar-menu">
+    <div class="navbar-start">
+      {{ if .Site.Menus.main }}
+      {{ range .Site.Menus.main }}
+      {{ $isActive := $page.HasMenuCurrent "navbar" . }}
+      <a class="navbar-item {{ if $isActive }} is-active{{ end }}" href="{{ .URL }}" title="{{ .Name }} page">
+        {{ .Name }}
       </a>
+      {{ end }}
+      {{ end }}
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-start">
-        {{ if .Site.Menus.main }}
-        {{ range .Site.Menus.main }}
-        {{ $isActive := $page.HasMenuCurrent "navbar" . }}
-        <a class="navbar-item {{ if $isActive }} is-active{{ end }}" href="{{ .URL }}" title="{{ .Name }} page">
-          {{ .Name }}
-        </a>
-        {{ end }}
-        {{ end }}
-      </div>
-    </div>
 
     <div class="navbar-end">
-      <div class="navbar-item">
-        {{ $icon_size := "32px" }}
-        {{ with .Param "facebook" }}
-        <a href="{{ . }}" target="_blank" class="link-transition facebook link dib z-999 pt3 pt0-l mr1"
-          title="Facebook link" rel="noopener" aria-label="follow on Facebook——Opens in a new window">
-          {{ partial "svg/facebook.svg" (dict "size" $icon_size) }}
-        </a>
-        {{ end }}
-        {{ with .Param "twitter" }}
-        <a href="{{ . }}" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1"
-          title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
-          {{ partial "svg/twitter.svg" (dict "size" $icon_size) }}
-        </a>
-        {{ end }}
-        {{ with .Param "instagram" }}
-        <a href="{{ . }}" target="_blank" class="link-transition instagram link dib z-999 pt3 pt0-l mr1"
-          title="Instagram link" rel="noopener" aria-label="follow on Instagram——Opens in a new window">
-          {{ partial "svg/instagram.svg" (dict "size" $icon_size) }}
-        </a>
-        {{ end }}
-        {{ with .Param "youtube" }}
-        <a href="{{ . }}" target="_blank" class="link-transition youtube link dib z-999 pt3 pt0-l mr1"
-          title="Youtube link" rel="noopener" aria-label="follow on Youtube——Opens in a new window">
-          {{ partial "svg/youtube.svg" (dict "size" $icon_size) }}
-        </a>
-        {{ end }}
+      <div class="navbar-item navbar-social">
+        {{ partial "social-follow" . }}
       </div>
     </div>
-  </nav>
-</header>
+  </div>
+</nav>

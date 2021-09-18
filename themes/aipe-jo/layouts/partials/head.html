@@ -42,3 +42,6 @@ https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates */}}
 
 {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
 {{ end }}
+
+{{ $script := resources.Get "scripts/main.js" | minify}}
+<script src="{{ $script.Permalink }}" defer></script>

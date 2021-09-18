@@ -1,1 +1,15 @@
-@import "vendors/bulma/bulma.sass";
+:root {
+  --facebook : hsl(213.9, 89.3%, 52.2%);
+  --instagram: hsl(353.8, 82.1%, 62.7%);
+  --twitter: hsl(202.8, 89.1%, 53.1%);
+  --youtube: hsl(360, 100%, 50%);
+}
+
+
+
+@import "vendors/bulma/bulma";
+@import "./components/navbar";
+
+html.has-navbar-fixed-top {
+  padding-top: 10.25rem;
+}

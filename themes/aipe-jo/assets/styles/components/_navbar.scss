@@ -1,0 +1,56 @@
+.navbar {
+
+  font-size: 1.125rem;
+  .navbar-brand {
+
+    img {
+      max-height: 9rem;
+    }
+  }
+}
+
+
+@include until($navbar-breakpoint) {
+  .navbar {
+    &-brand {
+      display: flex;
+
+      &-logo {
+        flex-grow: 2;
+
+        .image{
+          transform: translateX(50vw);
+          margin-left: -175px;
+        }
+      }
+    }
+
+    &-burger {
+      height: unset;
+      margin-left: 0;
+      flex-grow: 0
+    }
+
+    .navbar-end {
+      display: none;
+    }
+  }
+}
+
+@include from($navbar-breakpoint) {
+  .navbar {
+
+    .navbar-brand {
+      transform: translateX(50vw);
+      margin-left: -125px;
+    }
+
+    .navbar-start {
+      transform: translateX(-125px);
+    }
+
+    .navbar-mobile-icon {
+      display: none;
+    }
+  }
+}
