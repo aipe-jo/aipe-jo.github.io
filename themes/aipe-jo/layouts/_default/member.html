@@ -11,7 +11,11 @@
         </figure>
       </div>
       <div class="media-content">
-        <p class="title is-4">{{ .Params.Name }}</p>
+        {{ if eq .Params.Rank 1}}
+        <p class="title is-4 has-text-danger">{{ .Params.Name }}</p>
+        {{ else }}
+        <p class="title is-4 has-text-info">{{ .Params.Name }}</p>
+        {{ end }}
         <p class="subtitle is-6">{{ .Params.Classes }}</p>
         <p></p> {{ .Content }}</p>
       </div>
