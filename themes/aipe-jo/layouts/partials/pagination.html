@@ -1,0 +1,29 @@
+{{ $paginator := .Paginator }}
+
+{{ if gt $paginator.TotalPages 1 }}
+<nav class="pagination" role="navigation" aria-label="pagination">
+  {{ if $paginator.HasPrev }}
+  <a href="{{ $paginator.Prev.URL }}" rel="prev" class="pagination-previous">Prev</a>
+  {{ end }}
+  {{ if $paginator.HasNext }}
+  <a href="{{ $paginator.Next.URL }}" rel="next" class="pagination-next">Next</a>
+  {{ end }}
+  <ul class="pagination-list">
+
+    {{ range $paginator.Pagers }}
+    {{ if eq . $paginator }}
+    <!-- Current Page -->
+    <li><a href="{{ .URL }}" class="pagination-link is-current">{{.PageNumber }}</a></li>
+    {{ else if and (ge .PageNumber (sub $paginator.PageNumber 2)) (le .PageNumber (add $paginator.PageNumber 2)) }}
+    {{ $.Scratch.Set "dot_rendered" false }}
+    <!-- Render prev 2 page and next 2 pages -->
+    <li><a href="{{ .URL }}" class="pagination-link">{{.PageNumber }}</a></li>
+    {{ else if eq ($.Scratch.Get "dot_rendered") false }}
+    <!-- render skip pages -->
+    {{ $.Scratch.Set "dot_rendered" true }}
+    <li class="page-item disabled"><a class="page-link">...</a></li>
+    {{ end }}
+    {{ end }}
+  </ul>
+</nav>
+{{ end }}

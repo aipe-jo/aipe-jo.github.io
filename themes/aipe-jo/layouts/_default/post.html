@@ -1,0 +1,22 @@
+<article class="card">
+
+  {{ if .Params.Image }}
+  <div class="card-image">
+    <figure class="image is-4by3">
+      <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}" />
+    </figure>
+  </div>
+  {{ end }}
+  <div class="card-content">
+    <h4 class="title is-4">{{ .Title }}</h4>
+
+    <div class="content">
+      {{ .Summary }}
+      <br>
+      <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+    </div>
+  </div>
+  <div class="card-footer">
+    <a href="{{ .Permalink }}" class="card-footer-item">Lire</a>
+  </div>
+</article>

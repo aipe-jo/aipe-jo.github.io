@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+<body>
+  {{ block "header" . }}{{ partial "header.html" .}}{{ end }}
+  <main class="main content" role="main">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ block "footer" . }}{{ partialCached "footer.html" . }}{{ end }}
+</body>
+
+</html>

@@ -1,0 +1,3 @@
+[submodule "themes/aipe-jo/assets/styles/vendors/bulma"]
+	path = themes/aipe-jo/assets/styles/vendors/bulma
+	url = git@github.com:jgthms/bulma.git
