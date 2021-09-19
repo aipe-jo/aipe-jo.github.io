@@ -44,4 +44,4 @@ https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates */}}
 {{ end }}
 
 {{ $script := resources.Get "scripts/main.js" | minify}}
-<script src="{{ $script.Permalink }}" defer></script>
+<script src="{{ $script.RelPermalink }}" defer></script>
