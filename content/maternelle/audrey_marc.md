@@ -1,9 +1,9 @@
 ---
 name: "Audrey Marc"
-image: ""
-classes: ""
+image: "/images/people/audrey_marc.jpeg"
+classes: "GS8, CE2C"
 tags: [maternelle]
 rank: 2
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus dapibus risus id dictum. In non euismod urna. Cras fringilla rhoncus dolor, non iaculis justo mattis laoreet. Proin elit purus, mollis luctus nisl eu, vehicula rutrum augue. Pellentesque rhoncus, magna sit amet aliquam egestas, risus orci laoreet elit, sed tempus sapien leo sed massa. Maecenas posuere consequat libero vitae pharetra. Aliquam rutrum libero lectus. Fusce dignissim tempus elit. Nam sit amet nibh quis felis pretium sagittis. Cras auctor tempor leo. Sed malesuada pharetra lacinia. In justo ante, posuere sed lobortis eget, consequat eget justo. Suspendisse efficitur imperdiet tortor at consectetur. Integer eu dolor ligula.
+Maman de deux garçons respectivement en GS8 et CE2 C, je souhaite m’investir dans le quotidien scolaire de nos enfants et être votre relais auprès de l’équipe enseignante sur les sujets qui nous importent à tous.

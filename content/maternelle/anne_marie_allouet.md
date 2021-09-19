@@ -1,9 +1,9 @@
 ---
 name: "Anne-Marie Allouet"
 image: ""
-classes: ""
+classes: "Soren en GS8"
 tags: [maternelle]
 rank: 7
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus dapibus risus id dictum. In non euismod urna. Cras fringilla rhoncus dolor, non iaculis justo mattis laoreet. Proin elit purus, mollis luctus nisl eu, vehicula rutrum augue. Pellentesque rhoncus, magna sit amet aliquam egestas, risus orci laoreet elit, sed tempus sapien leo sed massa. Maecenas posuere consequat libero vitae pharetra. Aliquam rutrum libero lectus. Fusce dignissim tempus elit. Nam sit amet nibh quis felis pretium sagittis. Cras auctor tempor leo. Sed malesuada pharetra lacinia. In justo ante, posuere sed lobortis eget, consequat eget justo. Suspendisse efficitur imperdiet tortor at consectetur. Integer eu dolor ligula.
+Maman de deux jeunes garçons, Soren en GS8 et Morgan qui sera scolarisé l’année prochaine, je souhaite participer au dialogue entre les parents et les institutions qui interviennent dans le quotidien scolaire des enfants. Je suis soucieuse du maintien de la qualité de vie pour les enfants à l’école. Cela doit passer par la défense de l’adéquation entre les moyens alloués et les besoins des enfants, avec en premier lieu la présence garantie d’une équipe enseignante à temps plein pour chaque classe.

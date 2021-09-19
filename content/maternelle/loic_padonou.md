@@ -1,9 +1,10 @@
 ---
 name: "Loïc Padonou"
 image: ""
-classes: ""
+classes: "Père de Prune (GS2)"
 tags: [maternelle]
 rank: 1
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus dapibus risus id dictum. In non euismod urna. Cras fringilla rhoncus dolor, non iaculis justo mattis laoreet. Proin elit purus, mollis luctus nisl eu, vehicula rutrum augue. Pellentesque rhoncus, magna sit amet aliquam egestas, risus orci laoreet elit, sed tempus sapien leo sed massa. Maecenas posuere consequat libero vitae pharetra. Aliquam rutrum libero lectus. Fusce dignissim tempus elit. Nam sit amet nibh quis felis pretium sagittis. Cras auctor tempor leo. Sed malesuada pharetra lacinia. In justo ante, posuere sed lobortis eget, consequat eget justo. Suspendisse efficitur imperdiet tortor at consectetur. Integer eu dolor ligula.
+Je souhaite continuer à m’investir dans la vie de l’école, en relais des parents et au soutien de l’équipe enseignante : surtout en cette période où les difficultés organisationnelles liées à la pandémie sont nombreuses et au détriment des enfants en premier lieu. 
+Attentif aux questions relatives à l’alimentation de nos enfants, je souhaite également interroger le lien entre les parents d’élèves et notre association de parents d’élèves dans un souci de représentativité. 
