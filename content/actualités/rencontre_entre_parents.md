@@ -1,8 +1,16 @@
+---
+date: 2021-09-19T11:00:59-04:00
+description: "Rencontre entre parents"
+image: ""
+tags: ["event"]
+title: "Rencontre entre parents"
+type: "post"
+---
+
 Vous avez des questions, des suggestions, des sujets qui vous tiennent à cœur et que vous voulez faire remonter dans l’école ?
 
 Vous voulez rejoindre notre association indépendante ? 
 Vous êtes les bienvenu.e.s !
-
 
 Retrouvons-nous devant l'école :
 - jeudi 23 septembre à partir 8h30

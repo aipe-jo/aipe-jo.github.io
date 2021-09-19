@@ -1,31 +1,24 @@
 {{ define "main" }}
 
+<!-- blog post -->
+<section class="section">
+  <div class="container">
 
-<section class="container">
+    {{- .Content -}}
 
-  {{- .Content -}}
-
-  <div class='columns is-multiline'>
-    {{ $paginator := .Paginate .Data.Pages }}
-    {{ range $paginator.Pages }}
-    <div class="column is-one-third">
-      {{ .Render "post" }}
+    <div class='columns is-multiline'>
+      {{ $paginator := .Paginate .Data.Pages }}
+      {{ range $paginator.Pages }}
+      <div class="column is-one-third">
+        {{ .Render "post" }}
+      </div>
+      {{ end }}
     </div>
-    {{ end }}
+    <div>
+      {{ partial "pagination" . }}
+    </div>
   </div>
-  <div>
-    {{ partial "pagination" . }}
-  </div>
 </section>
-
-</section>
-<section>
-  <!-- sidebar -->
-  <!-- /sidebar -->
-
-  <!-- pagination -->
-
-</section>
-</div>
+<!-- /blog post -->
 
 {{ end }}
