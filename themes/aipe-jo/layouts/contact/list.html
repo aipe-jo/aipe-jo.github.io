@@ -7,7 +7,7 @@
         <div class="column  has-text-left">
           <h1 class="title is-1">Contactez-nous</h1>
           <p class="is-size-4">N'hésitez pas à nous contacter afin de nous faire part de vos remarques, idées ou préocupations.</p>
-            <p><A HREF="mailto:aipejo92@gmail.com">aipejo92@gmail.com</A></p>
+            <p><A HREF="mailto:{{ .Param "mail" }}">{{ .Param "mail" }}</A></p>
           <div class="social-media">
             {{ partial "social-follow" . }}
           </div>
@@ -15,32 +15,32 @@
         <div class="column has-text-left">
           <div class="field">
             <div class="control">
-              <input class="input is-medium" type="text" id="first_name" placeholder="Prénom">
+              <input class="input is-medium" type="text" id="first_name" name="first_name" placeholder="Prénom">
             </div>
           </div>
           <div class="field">
             <div class="control">
-              <input class="input is-medium" type="text" id="last_name" placeholder="Nom">
+              <input class="input is-medium" type="text" id="last_name" name="last_name" placeholder="Nom">
             </div>
           </div>
           <div class="field">
             <div class="control">
-              <input class="input is-medium" type="email" id="mail" placeholder="Email">
+              <input class="input is-medium" type="email" id="mail" name="mail" placeholder="Email">
             </div>
             <p>
           <div class="field">
             <div class="control">
-              <input class="input is-medium" type="text" id="subject" placeholder="Sujet">
+              <input class="input is-medium" type="text" id="subject" name="subject" placeholder="Sujet">
             </div>
           </div>
           <div class="field">
             <div class="control">
-              <textarea class="textarea is-medium" id="message" placeholder="Message"></textarea>
+              <textarea class="textarea is-medium" id="message" name="message" placeholder="Message"></textarea>
             </div>
           </div>
         </p>
           <div class="control">
-            <button type="submit" class="button is-link is-fullwidth has-text-weight-medium is-medium">Envoyer</button>
+            <button type="submit" class="button is-link is-fullwidth has-text-weight-medium is-medium" value="send">Envoyer</button>
           </div>
         </div>
       </div>
