@@ -1,7 +1,7 @@
 ---
 name: "Sarah Nafti"
 image: ""
-classes: ""
+classes: "GS"
 tags: [maternelle]
 rank: 3
 ---

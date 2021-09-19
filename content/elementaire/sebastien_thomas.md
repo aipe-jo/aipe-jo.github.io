@@ -1,6 +1,6 @@
 ---
 name: "Sébastien Thomas"
-image: ""
+image: "/images/people/sebastien_thomas.png"
 classes: ""
 tags: [elementaire]
 rank: 1

@@ -1,7 +1,7 @@
 ---
 name: "Anne-Marie Allouet"
 image: ""
-classes: "Soren en GS8"
+classes: "Maman de Soren en GS8"
 tags: [maternelle]
 rank: 7
 ---
