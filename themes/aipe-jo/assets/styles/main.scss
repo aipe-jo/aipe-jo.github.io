@@ -1,3 +1,5 @@
+$navbar-brand-logo-height: 42px * 3;
+
 :root {
   --facebook : hsl(213.9, 89.3%, 52.2%);
   --instagram: hsl(353.8, 82.1%, 62.7%);
@@ -6,10 +8,33 @@
 }
 
 
-
 @import "vendors/bulma/bulma";
 @import "./components/navbar";
 
-html.has-navbar-fixed-top {
-  padding-top: 10.25rem;
+html {
+  overflow: auto;
+  &.has-navbar-fixed-top {
+    padding-top: $navbar-brand-logo-height /2;
+  }
+}
+
+body {
+  position: relative;
+  height: calc(100vh - 4rem);
+}
+
+.main {
+  padding-top: ($navbar-brand-logo-height / 2 )+ 21px;
+}
+.main::before {
+  content: "";
+  background-image: url('/images/ecole.jpg');
+  background-size: cover;
+  background-attachment: scroll;
+  filter: opacity(0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }

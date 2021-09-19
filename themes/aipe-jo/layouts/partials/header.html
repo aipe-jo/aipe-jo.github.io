@@ -12,7 +12,7 @@
     <a class="navbar-item navbar-brand-logo" href="{{ .Site.Home.RelPermalink }}">
       {{ with .Site.Params.site_logo }}
       <figure class="image">
-        <img src="{{ . }}" alt="{{ $.Site.Title }}" class="is-rounded" />
+        <img src="{{ . }}" alt="{{ $.Site.Title }}" />
       </figure>
       {{ else }}
       {{ .Site.Title }}

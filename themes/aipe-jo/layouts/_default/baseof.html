@@ -7,7 +7,7 @@
 
 <body>
   {{ block "header" . }}{{ partial "header.html" .}}{{ end }}
-  <main class="main content" role="main">
+  <main class="main" role="main">
     {{ block "main" . }}{{ end }}
   </main>
   {{ block "footer" . }}{{ partialCached "footer.html" . }}{{ end }}

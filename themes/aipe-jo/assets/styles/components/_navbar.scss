@@ -1,12 +1,48 @@
-.navbar {
 
+.navbar {
   font-size: 1.125rem;
+  height: $navbar-brand-logo-height /2;
+
   .navbar-brand {
 
-    img {
-      max-height: 9rem;
+    &-logo {
+      position: relative;
+      height: $navbar-brand-logo-height + 5px;
+      width: $navbar-brand-logo-height + 5px;
+      align-items: baseline;
+
+      .image {
+        width: $navbar-brand-logo-height;
+        height: $navbar-brand-logo-height;
+        display: block;
+        box-sizing: border-box;
+        overflow: hidden;
+
+        &::before {
+          border-radius: 50%;
+          bottom: 0;
+          content: '';
+          left: 0;
+          pointer-events: none;
+          position: absolute;
+          right: 0;
+          top: 0;
+          box-shadow: $navbar-box-shadow-size $navbar-box-shadow-color;
+        }
+
+        img {
+          background-color: $navbar-background-color;
+          width: $navbar-brand-logo-height;
+          height: $navbar-brand-logo-height;
+          background-color: white;
+          max-height: unset;
+          object-fit: contain;
+          border-radius: 50%;
+        }
+      }
     }
-  }
+    }
+
 }
 
 
@@ -14,19 +50,25 @@
   .navbar {
     &-brand {
       display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: inherit;
+      position: relative;
 
-      &-logo {
-        flex-grow: 2;
-
-        .image{
-          transform: translateX(50vw);
-          margin-left: -175px;
-        }
+      .navbar &-logo {
+        position: absolute;
+        display: block;
+        height: $navbar-brand-logo-height + 5px;
+        width: $navbar-brand-logo-height + 5px;
+        top: 0;
+        left: 50%;
+        padding-top: 0;
+        margin-left: -$navbar-brand-logo-height / 2;
+        z-index: 1;
       }
     }
 
     &-burger {
-      height: unset;
       margin-left: 0;
       flex-grow: 0
     }
@@ -39,14 +81,17 @@
 
 @include from($navbar-breakpoint) {
   .navbar {
+    position: relative;
 
     .navbar-brand {
-      transform: translateX(50vw);
-      margin-left: -125px;
-    }
+      position: absolute;
+      top: 0;
+      left: 50%;
+      margin-left: -$navbar-brand-logo-height / 2;
 
-    .navbar-start {
-      transform: translateX(-125px);
+      &-logo {
+        padding: 0;
+      }
     }
 
     .navbar-mobile-icon {
