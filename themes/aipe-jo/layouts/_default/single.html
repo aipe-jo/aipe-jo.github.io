@@ -4,18 +4,22 @@
   <div class="hero-body">
   <article class="card">
     {{ if .Params.Image }}
-    <div class="card-image">
+    <div class="columns  is-gapless">
+      <div class="column">
       <figure class="image">
       <img src="{{ .Params.Image | relURL }}" alt="{{ .Params.Name }}">
     </figure>
-    </div>
+  </div>
     {{ end }}
+    <div class="column">
     <div class="card-content">
       <div class="content">
         <p class="title is-4 has-text-info">{{ .Params.Title }}</p>
           <p>{{ .Content }}</p>
       </div>
+      </div>
     </div>
+  </div>
   </div>
   </article>
 </div>
