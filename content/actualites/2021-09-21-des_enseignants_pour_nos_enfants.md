@@ -1,7 +1,7 @@
 ---
 date: 2021-09-20
 description: "Des enseignants pour nos enfants!"
-image: ""
+image: "/images/actualites/2021-09-21-des_enseignants_pour_nos_enfants.png"
 tags: ["event"]
 title: "Des enseignants pour nos enfants!"
 type: "post"
