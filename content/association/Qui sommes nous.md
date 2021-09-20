@@ -2,7 +2,7 @@
 title: "Qui sommes-nous?"
 rank: 1
 ---
-Une association indépendante et apolitique de parents d'élève de l'école maternelle et élémentaire Justin Oudin à Issy-les-Moulineaux dans les Hauts-de-Seine. 
+Une association indépendante et apolitique de parents d'élèves de l'école maternelle et élémentaire Justin Oudin à Issy-les-Moulineaux dans les Hauts-de-Seine. 
 
 **Notre objectif**
 
