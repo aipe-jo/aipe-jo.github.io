@@ -1,6 +1,6 @@
 ---
 name: "Stéphanie Quillet"
-image: ""
+image: "/images/people/stephanie_quillet.jpg"
 classes: "Maman de Vasco en CE2"
 tags: [elementaire]
 rank: 2

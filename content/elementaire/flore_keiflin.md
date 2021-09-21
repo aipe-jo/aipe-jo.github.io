@@ -1,6 +1,6 @@
 ---
 name: "Flore Keiflin"
-image: ""
+image: "/images/people/flore_keiflin.jpg"
 classes: "Maman de Camille en CE2A, Jeanne en CPA et Manon en PS2"
 tags: [elementaire]
 rank: 6

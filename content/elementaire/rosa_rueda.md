@@ -1,6 +1,6 @@
 ---
 name: "Rosa Rueda"
-image: ""
+image: "/images/people/rosa_rueda.jpg"
 classes: ""
 tags: [elementaire]
 rank: 7
