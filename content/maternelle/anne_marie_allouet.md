@@ -1,6 +1,6 @@
 ---
 name: "Anne-Marie Allouet"
-image: ""
+image: "/images/people/anne-marie_allouet.jpg"
 classes: "Maman de Soren en GS8"
 tags: [maternelle]
 rank: 7
