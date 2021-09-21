@@ -1,6 +1,6 @@
 ---
 name: "Sarah Nafti"
-image: ""
+image: "/images/people/sarah_nafti.jpg"
 classes: "GS"
 tags: [maternelle]
 rank: 3
