@@ -1,6 +1,6 @@
 ---
 name: "Loïc Padonou"
-image: ""
+image: "/images/people/loïc_padonou.jpg"
 classes: "Père de Prune (GS2)"
 tags: [maternelle]
 rank: 1
