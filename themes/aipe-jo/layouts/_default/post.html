@@ -13,7 +13,7 @@
       {{ .Summary }}
     </div>
     <div class="content has-text-right is-size-7">
-      <time >{{ .Params.Date | time.Format ":date_long" }}</time>
+      <time >{{ .Params.Date.Format "January 2, 2006" }}</time>
     </div>
   </div>
   <div class="card-footer" >
