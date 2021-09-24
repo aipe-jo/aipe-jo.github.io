@@ -22,7 +22,7 @@
     <div class="navbar-social">
       {{ range .Site.Params.Social }}
       <div class="navbar-item navbar-mobile-icon">
-        {{ partial "social-follow" . }}
+        {{ partial "social-follow" (merge . (dict "size" "small"))}}
       </div>
       {{ end}}
     </div>
@@ -44,7 +44,7 @@
     <div class="navbar-end">
       {{ range .Site.Params.Social }}
       <div class="navbar-item navbar-social">
-        {{ partial "social-follow" . }}
+        {{ partial "social-follow" (merge . (dict "size" "small"))}}
       </div>
       {{ end}}
     </div>

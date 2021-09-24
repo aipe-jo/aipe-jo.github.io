@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<section class="hero ">
+<section class="contact-list hero ">
   <div class="hero-body">
     <div class="container has-text-s">
       <div class="columns is-8 is-variable ">
@@ -11,7 +11,7 @@
           <p><A HREF="mailto:{{ .Param "mail" }}">{{ .Param "mail" }}</A></p>
           <br/> 
           <div class="social-media">
-            {{ range .Params.Social }}
+            {{ range .Site.Params.Social }}
             <div class="navbar-item navbar-social">
               {{ partial "social-follow" . }}
             </div>

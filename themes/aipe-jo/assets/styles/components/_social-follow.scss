@@ -1,9 +1,10 @@
 .social-follow {
   .icon {
-    & > * {
-      height: $icon-dimensions-small;
-      width: $icon-dimensions-small;
-
+    position: relative;
+    svg {
+      position: absolute;
+      height: 100%;
+      width: 100%;
       &[data-icon="facebook"] {
         color: $colors-facebook;
       }

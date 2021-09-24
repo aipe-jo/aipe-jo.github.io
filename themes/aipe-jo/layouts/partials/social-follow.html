@@ -1,6 +1,6 @@
 {{- $social := . -}}
 <a href="{{ $social.link }}" target="_blank" title="{{ $social.title }}" class="social-follow">
-  <figure class="icon">
+  <figure class="icon{{ with $social.size }} is-{{ . }}{{ end }}">
     {{ readFile (print "/static/" $social.icon) | safeHTML }}
   </figure>
 </a>
