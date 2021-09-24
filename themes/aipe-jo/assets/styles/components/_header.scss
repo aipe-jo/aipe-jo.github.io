@@ -1,10 +1,8 @@
-
-.navbar {
+.header {
   font-size: 1.125rem;
   height: $navbar-brand-logo-height /2;
 
   .navbar-brand {
-
     &-logo {
       position: relative;
       height: $navbar-brand-logo-height + 5px;
@@ -41,61 +39,59 @@
         }
       }
     }
+  }
+
+  @include until($navbar-breakpoint) {
+      .navbar-brand {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: inherit;
+        position: relative;
+
+        &-logo {
+          position: absolute;
+          display: block;
+          height: $navbar-brand-logo-height + 5px;
+          width: $navbar-brand-logo-height + 5px;
+          top: 0;
+          left: 50%;
+          padding-top: 0;
+          margin-left: -$navbar-brand-logo-height / 2;
+          z-index: 1;
+        }
+      }
+
+      .navbar-burger {
+        margin-left: 0;
+        flex-grow: 0
+      }
+
+      .navbar-social {
+        display: flex;
+      }
+
+      .navbar-end {
+        display: none;
+      }
     }
-
-}
-
-
-@include until($navbar-breakpoint) {
-  .navbar {
-    &-brand {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: inherit;
+  @include from($navbar-breakpoint) {
       position: relative;
 
-      .navbar &-logo {
+      .navbar-brand {
         position: absolute;
-        display: block;
-        height: $navbar-brand-logo-height + 5px;
-        width: $navbar-brand-logo-height + 5px;
         top: 0;
         left: 50%;
-        padding-top: 0;
         margin-left: -$navbar-brand-logo-height / 2;
-        z-index: 1;
+
+        &-logo {
+          padding: 0;
+        }
+      }
+
+      .navbar-mobile-icon {
+        display: none;
       }
     }
-
-    &-burger {
-      margin-left: 0;
-      flex-grow: 0
-    }
-
-    .navbar-end {
-      display: none;
-    }
-  }
 }
 
-@include from($navbar-breakpoint) {
-  .navbar {
-    position: relative;
-
-    .navbar-brand {
-      position: absolute;
-      top: 0;
-      left: 50%;
-      margin-left: -$navbar-brand-logo-height / 2;
-
-      &-logo {
-        padding: 0;
-      }
-    }
-
-    .navbar-mobile-icon {
-      display: none;
-    }
-  }
-}

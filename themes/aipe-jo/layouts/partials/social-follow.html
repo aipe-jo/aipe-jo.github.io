@@ -1,41 +1,6 @@
-{{ $icon_size := "32px" }}
-
-{{ with .Param "facebook" }}
-<a href="{{ . }}" target="_blank" title="Facebook">
-  <span class="icon" style="color: var(--facebook);">
-    {{ partial "svg/facebook.svg" (dict "size" $icon_size) }}
-  </span>
+{{- $social := . -}}
+<a href="{{ $social.link }}" target="_blank" title="{{ $social.title }}" class="social-follow">
+  <figure class="icon">
+    {{ readFile (print "/static/" $social.icon) | safeHTML }}
+  </figure>
 </a>
-{{ end }}
-
-{{ with .Param "twitter" }}
-<a href="{{ . }}" target="_blank" title="Twitter">
-  <span class="icon" style="color: var(--twitter);">
-    {{ partial "svg/twitter.svg" (dict "size" $icon_size) }}
-  </span>
-</a>
-{{ end }}
-
-{{ with .Param "instagram" }}
-<a href="{{ . }}" target="_blank" title="Instagram">
-  <span class="icon" style="color: var(--instagram);">
-    {{ partial "svg/instagram.svg" (dict "size" $icon_size) }}
-  </span>
-</a>
-{{ end }}
-
-{{ with .Param "youtube" }}
-<a href="{{ . }}" target="_blank" title="Youtube">
-  <span class="icon" style="color: var(--youtube);">
-    {{ partial "svg/youtube.svg" (dict "size" $icon_size) }}
-  </span>
-</a>
-{{ end }}
-
-{{ with .Param "rss" }}
-<a href="{{ . }}" target="_blank" title="RSS">
-  <span class="icon" style="color: var(--rss);">
-    {{ partial "svg/rss.svg" (dict "size" $icon_size) }}
-  </span>
-</a>
-{{ end }}

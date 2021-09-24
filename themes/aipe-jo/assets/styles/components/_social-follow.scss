@@ -1,0 +1,15 @@
+.social-follow {
+  .icon {
+    & > * {
+      height: $icon-dimensions-small;
+      width: $icon-dimensions-small;
+
+      &[data-icon="facebook"] {
+        color: $colors-facebook;
+      }
+      &[data-icon="instagram"] {
+        color: $colors-instagram;
+      }
+    }
+  }
+}

@@ -11,7 +11,11 @@
           <p><A HREF="mailto:{{ .Param "mail" }}">{{ .Param "mail" }}</A></p>
           <br/> 
           <div class="social-media">
-            {{ partial "social-follow" . }}
+            {{ range .Params.Social }}
+            <div class="navbar-item navbar-social">
+              {{ partial "social-follow" . }}
+            </div>
+            {{ end}}
           </div>
         </div>
         <!--<div class="column has-text-left">
