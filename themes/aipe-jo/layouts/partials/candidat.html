@@ -1,0 +1,21 @@
+{{ .Scratch.Set "image.url" ("https://bulma.io/images/placeholders/96x96.png" | safeURL)}}
+{{ .Scratch.Set "title.class" (cond (eq (.Param (.Scratch.Get "electionType"))  1) " has-text-danger" " has-text-info")}}
+{{ $original := resources.Get .Params.Image }}
+{{ if $original }}
+    {{ $image := $original.Fill "96x96" }}
+    {{ .Scratch.Set "image.url" $image.RelPermalink }}
+{{ end }}
+<div class="media">
+  <div class="media-left">
+    <figure class="image is-96x96">
+      <img src="{{ .Scratch.Get `image.url` }}" alt="{{ .Params.Name }}">
+    </figure>
+  </div>
+  <div class="media-content">
+    <h4 class="title is-4{{.Scratch.Get `title.class`}}">{{ .Params.Name }}</h4>
+    <span class="subtitle is-6">{{ .Params.Classes }}</span>
+  </div>
+</div>
+<div class="content">
+  {{ .Content }}
+</div>

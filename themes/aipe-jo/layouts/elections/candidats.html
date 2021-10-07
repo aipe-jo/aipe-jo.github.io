@@ -1,0 +1,16 @@
+{{ define "main" }}
+{{ $election := . }}
+
+<section class="candidats">
+  {{ $electionType := (printf "%s%s" "election." .Params.election) }}
+  {{ $election := where .Site.AllPages (printf "%s%s" "Params." $electionType) "!=" nil }}
+    {{ range $election.ByParam $electionType }}
+      {{ .Scratch.Set "electionType" $electionType}}
+      <div class="card">
+        <div class="card-content">
+          {{ partial "candidat.html" . }}
+        </div>
+      </div>
+    {{ end }}
+</section>
+{{ end }}

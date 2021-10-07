@@ -1,0 +1,12 @@
+.video {
+  @extend .image;
+  @extend .is-16by9;
+  text-align: center;
+
+  position: relative;
+  max-height: 40em;
+
+  > iframe {
+    @extend .has-ratio;
+  }
+}

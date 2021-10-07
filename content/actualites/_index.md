@@ -1,5 +1,5 @@
 ---
 title: "Actualités"
-weight: 1
 menu: "main"
+weight: 10
 ---

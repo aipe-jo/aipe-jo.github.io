@@ -1,8 +1,44 @@
 {{ define "main" }}
 
-<!-- blog post -->
+<!-- Nos listes -->
 <section class="section">
-  <div class="container">
+  <div class="box">
+
+    {{ $electionPage := .GetPage "elections" }}
+    <h4 class="title is-4 has-text-info">{{ $electionPage.Param "title" }}</h4>
+
+    {{ $electionPage.Param "summary"}}
+
+    <div class='columns is-multiline'>
+      {{ $elementaire := where .Site.Pages "Params.election.élémentaire" "!=" nil }}
+      {{ range first 1 ($elementaire.ByParam "election.élémentaire") }}
+        {{ .Scratch.Set "electionType" "élémentaire"}}
+        <div class="column">
+          {{ partial "candidat.html" . }}
+          <div class="media-bottom">
+            {{ $liste := .GetPage `elections/élémentaire`}}
+            <a href="{{ $liste.Permalink }}">{{$liste.Params.title}}</a>
+          </div>
+        </div>
+      {{ end }}
+      {{ $maternelle := where .Site.Pages "Params.election.maternelle" "!=" nil }}
+      {{ range first 1 ($maternelle.ByParam "election.maternelle") }}
+        {{ .Scratch.Set "electionType" "maternelle"}}
+        <div class="column">
+          {{ partial "candidat.html" . }}
+          <div class="media-bottom">
+            {{ $liste := .GetPage `elections/maternelle`}}
+            <a href="{{ $liste.Permalink }}">{{$liste.Params.title}}</a>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<!-- /Nos listes -->
+
+<!-- Dernières actualités -->
+<section class="section">
     <div class='columns is-multiline'>
       {{ range first 3 ( where .Site.RegularPages.ByPublishDate.Reverse "Type" "post" )}}
       <div class="column is-one-third">
@@ -10,8 +46,7 @@
       </div>
       {{ end }}
     </div>
-  </div>
 </section>
-<!-- /blog post -->
+<!-- /Dernières actualités -->
 
 {{ end }}

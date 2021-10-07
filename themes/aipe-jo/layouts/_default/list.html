@@ -1,9 +1,6 @@
 {{ define "main" }}
 
-<!-- blog post -->
 <section class="section">
-  <div class="container">
-
     {{- .Content -}}
 
     <div class='columns is-multiline'>
@@ -17,8 +14,6 @@
     <div>
       {{ partial "pagination" . }}
     </div>
-  </div>
 </section>
-<!-- /blog post -->
 
 {{ end }}

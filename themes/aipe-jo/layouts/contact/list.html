@@ -2,14 +2,14 @@
 
 <section class="contact-list hero ">
   <div class="hero-body">
-    <div class="container has-text-s">
+    <div class="has-text-s">
       <div class="columns is-8 is-variable ">
         <div class="column  has-text-left">
           <h1 class="title is-1">Contactez-nous</h1>
           <p class="is-size-4">N'hésitez pas à nous contacter afin de nous faire part de vos remarques, idées ou préoccupations.</p>
-          <br/>  
+          <br/>
           <p><A HREF="mailto:{{ .Param "mail" }}">{{ .Param "mail" }}</A></p>
-          <br/> 
+          <br/>
           <div class="social-media">
             {{ range .Site.Params.Social }}
             <div class="navbar-item navbar-social">

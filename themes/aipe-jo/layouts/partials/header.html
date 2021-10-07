@@ -12,7 +12,7 @@
     <a class="navbar-item navbar-brand-logo" href="{{ .Site.Home.RelPermalink }}">
       {{ with .Site.Params.site_logo }}
       <figure class="image">
-        <img src="{{ . }}" alt="{{ $.Site.Title }}" />
+        <img src="{{ . }}" alt="{{ $.Site.Title }}" title="{{ $.Site.Title }}" />
       </figure>
       {{ else }}
       {{ .Site.Title }}
@@ -32,10 +32,27 @@
     <div class="navbar-start">
       {{ if .Site.Menus.main }}
       {{ range .Site.Menus.main.ByWeight }}
-      {{ $isActive := $page.HasMenuCurrent "navbar" . }}
-      <a class="navbar-item {{ if $isActive }} is-active{{ end }}" href="{{ .URL }}" title="{{ .Name }} page">
+      {{ if .HasChildren }}
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link{{ if $page.HasMenuCurrent `main` . }} is-active{{ end }}" href="{{ .URL }}" title="{{ .Name }}">
+          {{ .Name }}
+        </a>
+
+        <div class="navbar-dropdown">
+          {{ range .Children }}
+          <a class="navbar-item{{ if $page.IsMenuCurrent `main` . }} is-active{{ end }}" href="{{ .URL }}"
+            title="{{ .Name }}">
+            {{ .Name }}
+          </a>
+          {{ end }}
+        </div>
+      </div>
+
+      {{ else }}
+      <a class="navbar-item{{ if $page.HasMenuCurrent `main` . }} is-active{{ end }}" href="{{ .URL }}" title="{{ .Name }} page">
         {{ .Name }}
       </a>
+      {{ end }}
       {{ end }}
       {{ end }}
     </div>

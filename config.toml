@@ -23,7 +23,7 @@ background_color_class = "bg-black"
 featured_image = "/images/gohugo-default-sample-hero-image.jpg"
 recent_posts_number = 2
 
-############################# social site ########################
+## social site
 [[params.social]]
 title = "Facebook"
 icon = "/images/icons/facebook.svg"
@@ -33,3 +33,28 @@ link = "https://www.facebook.com/aipejo"
 title = "Instagram"
 icon = "/images/icons/instagram.svg"
 link = "https://www.instagram.com/asso_parents_justinoudin"
+
+[[params.social]]
+title = "Youtube"
+icon = "/images/icons/youtube.svg"
+link = "https://www.youtube.com/channel/UCxL3XFo68xrVlSfNfXqWoRA"
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+
+  [privacy.googleAnalytics]
+    disable = true
+
+  [privacy.instagram]
+    disable = true
+
+  [privacy.twitter]
+    disable = true
+
+  [privacy.vimeo]
+    disable = true
+
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true

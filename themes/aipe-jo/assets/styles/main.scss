@@ -1,6 +1,9 @@
 
 @import "./variables";
 @import "vendors/bulma/bulma";
+
+@import "./components/video";
+@import "./components/candidats";
 @import "./components/contact-list";
 @import "./components/header";
 @import "./components/social-follow";
