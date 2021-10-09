@@ -6,7 +6,6 @@ image: "/images/actualites/2021-09-21-des_enseignants_pour_nos_enfants.png"
 tags: ["event"]
 title: "La banderole est enlevée !"
 type: post
-draft: true
 ---
 
 
