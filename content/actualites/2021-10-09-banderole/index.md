@@ -1,7 +1,6 @@
 ---
-date: 2021-09-20
+date: 2021-10-09
 description: "Des enseignants pour nos enfants!"
-image: "/images/actualites/2021-09-21-des_enseignants_pour_nos_enfants.png"
 tags: ["event"]
 title: "La banderole est enlevée !"
 type: post
@@ -12,6 +11,6 @@ Des enseignants ont été nommés dans les classes où ils manquaient depuis le 
 pour le restant de l'année scolaire ... 
 
 
-{{< figure src="/images/IMG_8109.jpg" title="Banderole" >}}
+{{< figure src="/actualites/2021-10-09-banderole/images/IMG_8109.jpg" alt="Banderole" height="256" width="256">}}
 
 
