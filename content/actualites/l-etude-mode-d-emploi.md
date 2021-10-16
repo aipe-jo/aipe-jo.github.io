@@ -6,9 +6,7 @@ title = "L'étude : mode d'emploi"
 type = "post"
 
 +++
-**Au début de chaque trimestre**, les parents doivent remplir une fiche d’inscription où figurent leurs souhaits pour l’emploi du temps de leur(s) enfant(s) entre 16h30 et 18h. 
-
-Trois choix sont possibles :
+**Au début de chaque trimestre**, les parents doivent remplir une fiche d’inscription où figurent leurs souhaits pour l’emploi du temps de leur(s) enfant(s) entre 16h30 et 18h. Trois choix sont possibles :
 
 * Sortie à 16h30
 * Activité longue
@@ -18,7 +16,7 @@ Pour les parents dont les enfants sont concernés, **voici comment se déroule l
 
 **L’intervenant est soit un enseignant, soit un animateur** mais au moins avec BAC + 2, et dans les deux cas, ils sont rémunérés par la mairie d’Issy-les-Moulineaux et non par l’Éducation nationale.
 
-A 16h30, les enfants qui ne sortent pas partent en récréation, puis au goûter. 
+A 16h30, les enfants qui ne sortent pas partent en récréation, puis au goûter.
 
 A 17h ils se rassemblent dans la cour où ils sont appelés par groupe d’étude, puis montent en classe.
 
