@@ -1,7 +1,6 @@
 +++
 date = 2021-10-16T10:07:37Z
 description = "Comment se passe l'étude de votre enfant ? "
-draft = true
 title = "Tout ce que vous avez toujours voulu savoir sur l'étude ! "
 type = "post"
 
