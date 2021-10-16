@@ -20,6 +20,10 @@ Ces groupes seront toujours les mêmes, avec les mêmes enfants, encadrés par l
 
 L’intervenant est **soit un enseignant de l'école, soit un animateur** (mais dans ce cas avec au moins un BAC + 2), **ils sont rémunérés par la mairie d’Issy-les-Moulineaux** et non par l’Éducation nationale.
 
+> Lors de la crise sanitaire, en 2020/2021, une tolérance était acceptée par la mairie permettant aux parents d’inscrire et de désinscrire un enfant de la veille pour le lendemain sur TELISS. **Ce n’est plus possible désormais**, même si TELISS le prévoit encore. Il est demandé aux parents de s’organiser en conséquence, même si l'enfant inscrit à la dernière minute sera quand même accueilli. 
+>
+> En revanche, il est possible de désinscrire un enfant inscrit à l’étude pour qu’il sorte à 16h30 **mais il est demandé de le faire le moins possible**, pour ne pas perturber l’organisation interne à l’école.
+
 ### **comment se déroule l’étude** ?
 
 A 16h30, les enfants qui ne rentrent pas à la maison partent en récréation, puis au goûter.
@@ -31,7 +35,3 @@ L’enseignant ou l’animateur encadre alors les devoirs, en commençant par le
 Un enfant qui a fini ses devoirs peut – une fois qu’ils ont été vérifiés - s’occuper tout seul (lecture, jeux de société …) mais n’a pas le droit de sortir de la classe avant 18h. Il est également possible qu’un enfant n’ait pas eu le temps de faire tous les devoirs avant la fin de l’étude. **D’une manière générale, il est conseillé aux parents de vérifier les devoirs à la maison.**
 
 A 18h, chaque groupe d’étude redescend. En fonction de leurs inscriptions, certains enfants vont en garderie, les autres rejoignent la sortie.
-
-> Lors de la crise sanitaire, en 2020/2021, une tolérance était acceptée par la mairie permettant aux parents d’inscrire et de désinscrire un enfant de la veille pour le lendemain sur TELISS. **Ce n’est plus possible désormais**, même si TELISS le prévoit encore, d’inscrire un enfant à la dernière minute et il est demandé aux parents de s’organiser en conséquence, même si l'enfant inscrit à la dernière minute sera quand même accueilli. 
->
-> En revanche, il est possible de désinscrire un enfant inscrit à l’étude pour qu’il sorte à 16h30 **mais il est demandé de le faire le moins possible**, pour ne pas perturber l’organisation interne à l’école.
