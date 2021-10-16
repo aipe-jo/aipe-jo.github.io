@@ -24,7 +24,7 @@ L’intervenant est **soit un enseignant de l'école, soit un animateur** (mais 
 
 > Lors de la crise sanitaire, en 2020/2021, une tolérance était acceptée par la mairie permettant aux parents d’inscrire et de désinscrire un enfant de la veille pour le lendemain sur TELISS. **Ce n’est plus possible désormais**, même si TELISS le prévoit encore. Il est demandé aux parents de s’organiser en conséquence, même si l'enfant inscrit à la dernière minute sera quand même accueilli.
 >
-> En revanche, il est possible de désinscrire un enfant inscrit à l’étude pour qu’il sorte à 16h30 **mais il est demandé de le faire le moins possible**, pour ne pas perturber l’organisation interne à l’école.
+> En revanche, il est possible de désinscrire un enfant inscrit à l’étude pour qu’il sorte à 16h30 **mais il est demandé de le faire le moins possible**, pour ne pas perturber l’organisation interne à l’école. Pensez alors à l'indiquer dans le carnet de liaison en plus de TELISS.
 
 ### **comment se déroule l’étude** ?
 
