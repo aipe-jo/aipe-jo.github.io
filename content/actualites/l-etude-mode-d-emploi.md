@@ -6,7 +6,6 @@ title = "Tout ce que vous avez toujours voulu savoir sur l'étude ! "
 type = "post"
 
 +++
-**![Tout ce que vous avez toujours voulu savoir sur l'étude ! ](/capture-d-ecran-2021-10-16-a-12-35-19.png "etude")**
 
 **Au début de chaque trimestre**, les parents doivent remplir une fiche d’inscription où figurent leurs souhaits pour l’emploi du temps de leur(s) enfant(s) entre 16h30 et 18h. Trois choix sont possibles :
 
