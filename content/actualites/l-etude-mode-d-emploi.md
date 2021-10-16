@@ -6,6 +6,9 @@ title = "L'étude : mode d'emploi"
 type = "post"
 
 +++
+
+![](/capture-d-ecran-2021-10-16-a-12-35-19.png)
+
 **Au début de chaque trimestre**, les parents doivent remplir une fiche d’inscription où figurent leurs souhaits pour l’emploi du temps de leur(s) enfant(s) entre 16h30 et 18h. Trois choix sont possibles :
 
 * Sortie à 16h30
@@ -30,7 +33,7 @@ A 16h30, les enfants qui ne rentrent pas à la maison partent en récréation, p
 
 A 17h ils se rassemblent dans la cour. Ceux qui y sont inscrits partent en activité longue, les autres sont appelés par groupe d’étude, puis montent en classe.
 
-L’enseignant ou l’animateur encadre alors les devoirs, en commençant par les plus petits niveaux (CP / CE1) - les grands sont laissés en autonomie au moins dans un premier temps. Les devoirs sont supervisés, mais compte tenu du temps relativement court et du nombre d’enfants, les encadrants ne peuvent pas réexpliquer une leçon à un élève qui ne l’aurait pas comprise. Si une difficulté de cet ordre est rencontrée, les enseignants nous ont dit se passer le mot entre eux, afin que le jour suivant, la maîtresse ou le maître puisse revenir avec l’enfant en difficulté sur la leçon en question.
+L’enseignant ou l’animateur encadre alors les devoirs, en commençant par les plus petits niveaux (CP / CE1) - les grands sont laissés en autonomie au moins dans un premier temps. Les devoirs sont supervisés, mais compte tenu du temps relativement court et du nombre d’enfants, les encadrants ne peuvent pas réexpliquer une leçon à un élève qui ne l’aurait pas comprise. Si une difficulté de cet ordre est rencontrée, les enseignants nous ont dit se passer le mot entre eux, afin que le jour suivant, la maîtresse ou le maître puisse revenir avec l’enfant sur la leçon en question.
 
 Un enfant qui a fini ses devoirs peut – une fois qu’ils ont été vérifiés - s’occuper tout seul (lecture, jeux de société …) mais n’a pas le droit de sortir de la classe avant 18h. Il est également possible qu’un enfant n’ait pas eu le temps de faire tous les devoirs avant la fin de l’étude. **D’une manière générale, il est conseillé aux parents de vérifier les devoirs à la maison.**
 
