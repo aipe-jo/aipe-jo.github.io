@@ -1,0 +1,17 @@
+<figure {{ with .Get "class" }}class="{{.}}"{{ end }}>
+  <audio class="audio-shortcode" preload="{{ .Get "preload" }}" controls>
+    <source src="{{ .Get "src" }}" type="{{ .Get "type" }}">
+    There should have been a video here but your browser does not seem
+    to support it.
+  </audio>
+  <figcaption>{{ if isset .Params "title" }}
+    <h4>{{ .Get "title" }}</h4>{{ end }}
+    {{ if or (.Get "caption") (.Get "attr") }}<p>
+    {{ .Get "caption" }}
+    {{ with .Get "attrlink" }}<a href="{{ . }}"> {{ end }}
+        {{ .Get "attr" }}
+    {{ if .Get "attrlink" }}</a> {{ end }}
+    </p> {{ end }}
+  </figcaption>
+</figure>
+
