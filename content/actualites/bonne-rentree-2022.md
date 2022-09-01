@@ -1,7 +1,6 @@
 +++
 date = 2022-09-01T20:32:53Z
 description = ""
-draft = true
 title = "Bonne rentrée 2022"
 type = "post"
 
