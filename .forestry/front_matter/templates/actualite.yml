@@ -16,5 +16,3 @@ fields:
   name: type
   label: type
   default: post
-pages:
-- content/actualites/l-etude-mode-d-emploi.md
